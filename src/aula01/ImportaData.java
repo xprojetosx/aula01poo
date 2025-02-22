@@ -1,8 +1,7 @@
-
-
 package aula01;
 
 import java.util.Date;
+import java.util.Scanner;
 
 /**
  *
@@ -14,6 +13,9 @@ public class ImportaData {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
         ImportaData objImportaData = new ImportaData();
         objImportaData.imprimeData();
         System.out.println("O maior  e:" + objImportaData.imprimeMaiorNumero(5, 10));
